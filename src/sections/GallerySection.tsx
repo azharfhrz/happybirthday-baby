@@ -69,12 +69,12 @@ const handleAddImage = () => {
     },
   };
 
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-  const file = e.target.files?.[0];
-  if (file) {
-    setSelectedFile(file);
-  }
-};
+//   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+//   const file = e.target.files?.[0];
+//   if (file) {
+//     setSelectedFile(file);
+//   }
+// };
 
   return (
     <section
