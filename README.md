@@ -73,3 +73,4 @@ export default defineConfig([
 ```
 "# happybirthday-baby" 
 "# pibuday-baby" 
+"# happybirthdayzara" 
