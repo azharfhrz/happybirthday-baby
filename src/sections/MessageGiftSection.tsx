@@ -28,7 +28,7 @@ const MessageGiftSection = () => {
       id: 3,
       type: 'link',
       title: 'Hadiah buat kamu',
-      content: 'https://padlet.com/azharfhrez/breakout-room/kQlGq5JozQaxvYW5-aW0BzolQaZOqXwl6',
+      content: 'https://padlet.com/azharfhrez/happy-birthday-sweetheart-aduzfsch6gy5vmec',
     },
     {
       id: 4,
