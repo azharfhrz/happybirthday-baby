@@ -52,28 +52,28 @@ const TimelineSection = () => {
       date: 'Special Moment',
       title: 'makasih udah jadi tempat pulang ternyaman aku',
       description: 'like i said before, i love the way u always comfort me sayang. entah gimana, dari dulu sampe sekarang kamu selalu bikin aku tenang, even kamu cuma diem. tapi dengan adanya kamu itu rasanya bikin semua capek dan ketakutan2 aku itu ilang. aku selalu ngerasa semuanya bakal baik-baik aja selagi ada kamu. makannya aku mau kamu ngerasa disayang juga sama aku, aku mau ngusahain semuanya buat kamu ayang',
+      image: `${import.meta.env.BASE_URL}images/kenangan6.jpg`
+    },
+    {
+      id: 7,
+      date: 'Special Moment',
+      title: 'LUCU HEHE MAAF AKU CEMBURUAN',
+      description: 'KAMU JUGA LUCU BANGET KALO LG YAKININ AK PAS LG CEMBURU SADASHDSJHDASJ...makasih yaa sayang, maaf dulu ak suka kesetanan. padahal kamu selalu seterbuka itu dan selalu jelasin ke akuuu. makasii banyak sayang, aku beneran bersyukur dan happy banget punya kamu. ',
       image: `${import.meta.env.BASE_URL}images/kenangan7.jpg`
     },
     {
       id: 8,
       date: 'Special Moment',
-      title: 'LUCU HEHE MAAF AKU CEMBURUAN',
-      description: 'KAMU JUGA LUCU BANGET KALO LG YAKININ AK PAS LG CEMBURU SADASHDSJHDASJ...makasih yaa sayang, maaf dulu ak suka kesetanan. padahal kamu selalu seterbuka itu dan selalu jelasin ke akuuu. makasii banyak sayang, aku beneran bersyukur dan happy banget punya kamu. ',
+      title: 'MOMENT KT DI ML PALING LUCU POKOKNYH',
+      description: 'aku masih simpen ss an tiap kita lagi main ml dari dulu sampe sekarang cayang. kamu inget nd bhkan aku pernah keboboan di lobby saking pengennya ak sama kamu terus, cuma dulu aku gengsi c hehe ',
       image: `${import.meta.env.BASE_URL}images/kenangan8.jpg`
     },
     {
       id: 9,
       date: 'Special Moment',
       title: 'MOMENT KT DI ML PALING LUCU POKOKNYH',
-      description: 'aku masih simpen ss an tiap kita lagi main ml dari dulu sampe sekarang cayang. kamu inget nd bhkan aku pernah keboboan di lobby saking pengennya ak sama kamu terus, cuma dulu aku gengsi c hehe ',
-      image: `${import.meta.env.BASE_URL}images/kenangan9.jpg`
-    },
-    {
-      id: 10,
-      date: 'Special Moment',
-      title: 'MOMENT KT DI ML PALING LUCU POKOKNYH',
       description: 'sekarang mawar kita bahkan udah mau level 11 dan kt jgk uda punya beberapa skin couple hehe, lucu kan cayang? semoga kita bisa langgeng terus sampe nanti tuaa jodoh dunia akhirat aamiin yaallah. maaf yaa aku suka bikin kamu kesel tiap main game, NEXT SEASON IJEY AKAN LEBIH JAGO DAN AKAN BIKIN KAMU IMMO POMICC. kalo kamu udah baca ini pasti kamu bakal keinget lylia lagi, iyh iyh cabal yh pokoknya besok atau lusa uda jemput lylia sayang',
-      image: `${import.meta.env.BASE_URL}images/kenangan10.jpg`
+      image: `${import.meta.env.BASE_URL}images/kenangan9.jpg`
     },
   ]);
 
