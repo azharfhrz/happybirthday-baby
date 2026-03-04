@@ -17,63 +17,63 @@ const TimelineSection = () => {
       date: 'awal kita kenal',
       title: 'ak kayak jamet yh?',
       description: 'Inget nda? ini awal-awal pas kita kenal, nama kamu bhkn mci Yezara xixixi',
-      image: '/images/kenangan1.jpg'
+      image: `${import.meta.env.BASE_URL}images/kenangan1.jpg`
     },
     {
       id: 2,
       date: 'RESPON KAMUU HUHU',
       title: 'detik2 stelah ijey confess',
       description: 'kalo kamu masih inget, ini adalah respon kamu pas aku abis confess ke kamu, hehe. lucu, sampe sekarang aku masih suka bacaa inii dan masi salting. ternyata kita waktu ith saling uring-uringan yh',
-      image: '/images/kenangan2.jpg'
+      image: `${import.meta.env.BASE_URL}images/kenangan2.jpg`
     },
     {
       id: 3,
       date: 'SPOTIFY',
       title: 'BDAY PERTAMA AKU SAMA KAMU',
       description: 'INI JUGA LUCU BANGET HIKS,, kamu niat baned ayang bikinin aku pl waktu itu. mmaci yhh,, ini adalah pl spotify pertama dari kamu buat aku hihihi',
-      image: '/images/kenangan3.png'
+      image: `${import.meta.env.BASE_URL}images/kenangan3.png`
     },
     {
       id: 4,
       date: 'Special Moment',
       title: 'Momen Spesial',
       description: 'ini pas aku nembak kamu hehe, website sederhana pertama aku yg aku bikin buat kamu. dan asal kamu tau, aku cuma bikin kayak gituan buat kamu tau sayangg. se special ith kamu buat aku, dari awal aku suka kamu aku bener2 suka pake hati bgt bhkn skrg ak msi kecintaan sama kamu dan bakal selalu kayak gitu 💖',
-      image: '/images/kenangan4.jpg'
+      image: `${import.meta.env.BASE_URL}images/kenangan4.jpg`
     },
     {
       id: 5,
       date: 'Special Moment',
       title: 'makasih udah selalu yakinin aku',
       description: 'i love the way u always comfort me sayang, makasih yaa dari dulu kamu selalu yakinin aku dan mau sabar banget sama aku. maaf aku malah suka bikin kamu capek dan bikin kamu jadi gengsian kayak sekarang :( ',
-      image: '/images/kenangan5.jpg'
+      image: `${import.meta.env.BASE_URL}images/kenangan5.jpg`
     },
     {
       id: 6,
       date: 'Special Moment',
       title: 'makasih udah jadi tempat pulang ternyaman aku',
       description: 'like i said before, i love the way u always comfort me sayang. entah gimana, dari dulu sampe sekarang kamu selalu bikin aku tenang, even kamu cuma diem. tapi dengan adanya kamu itu rasanya bikin semua capek dan ketakutan2 aku itu ilang. aku selalu ngerasa semuanya bakal baik-baik aja selagi ada kamu. makannya aku mau kamu ngerasa disayang juga sama aku, aku mau ngusahain semuanya buat kamu ayang',
-      image: '/images/kenangan6.jpg'
+      image: `${import.meta.env.BASE_URL}images/kenangan7.jpg`
     },
     {
       id: 8,
       date: 'Special Moment',
       title: 'LUCU HEHE MAAF AKU CEMBURUAN',
       description: 'KAMU JUGA LUCU BANGET KALO LG YAKININ AK PAS LG CEMBURU SADASHDSJHDASJ...makasih yaa sayang, maaf dulu ak suka kesetanan. padahal kamu selalu seterbuka itu dan selalu jelasin ke akuuu. makasii banyak sayang, aku beneran bersyukur dan happy banget punya kamu. ',
-      image: '/images/kenangan7.jpg'
+      image: `${import.meta.env.BASE_URL}images/kenangan8.jpg`
     },
     {
       id: 9,
       date: 'Special Moment',
       title: 'MOMENT KT DI ML PALING LUCU POKOKNYH',
       description: 'aku masih simpen ss an tiap kita lagi main ml dari dulu sampe sekarang cayang. kamu inget nd bhkan aku pernah keboboan di lobby saking pengennya ak sama kamu terus, cuma dulu aku gengsi c hehe ',
-      image: '/images/kenangan8.jpg'
+      image: `${import.meta.env.BASE_URL}images/kenangan9.jpg`
     },
     {
       id: 10,
       date: 'Special Moment',
       title: 'MOMENT KT DI ML PALING LUCU POKOKNYH',
       description: 'sekarang mawar kita bahkan udah mau level 11 dan kt jgk uda punya beberapa skin couple hehe, lucu kan cayang? semoga kita bisa langgeng terus sampe nanti tuaa jodoh dunia akhirat aamiin yaallah. maaf yaa aku suka bikin kamu kesel tiap main game, NEXT SEASON IJEY AKAN LEBIH JAGO DAN AKAN BIKIN KAMU IMMO POMICC. kalo kamu udah baca ini pasti kamu bakal keinget lylia lagi, iyh iyh cabal yh pokoknya besok atau lusa uda jemput lylia sayang',
-      image: '/images/kenangan9.jpg'
+      image: `${import.meta.env.BASE_URL}images/kenangan10.jpg`
     },
   ]);
 
@@ -268,7 +268,7 @@ const TimelineSection = () => {
           className="flex justify-center mt-12 gap-4"
         >
           <motion.img
-            src="/images/bubu-mimi-hug.png"
+            src={`${import.meta.env.BASE_URL}images/bubu-mimi-hug.png`}
             alt="Bubu & Mimi Hugging"
             className="w-32 h-32"
             animate={{ y: [0, -10, 0] }}

@@ -111,7 +111,7 @@ const MainWebsite = () => {
             className="flex flex-col items-center"
           >
             <motion.img
-              src="/images/bubu-mimi-heart.png"
+              src={`${import.meta.env.BASE_URL}images/bubu-mimi-heart.png`}
               alt="Bubu & Mimi"
               className="w-24 h-24 mb-4"
               animate={{ y: [0, -10, 0] }}

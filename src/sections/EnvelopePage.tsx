@@ -142,7 +142,7 @@ const EnvelopePage = ({
           transition={{ duration: 0.3 }}
         >
           <motion.img
-            src="/images/envelope.png"
+            src={`${import.meta.env.BASE_URL}images/envelope.png`}
             alt="Special Envelope"
             className="w-64 h-64 md:w-80 md:h-80 mx-auto drop-shadow-pink-lg cursor-pointer"
             animate={{
@@ -277,7 +277,7 @@ const EnvelopePage = ({
           >
             <div className="text-center">
               <motion.img
-                src="/images/bubu-sad.png"
+                src={`${import.meta.env.BASE_URL}images/bubu-sad.png`}
                 alt="Sad Bubu"
                 className="w-32 h-32 mx-auto mb-4"
                 animate={{ y: [0, -5, 0] }}
@@ -287,7 +287,7 @@ const EnvelopePage = ({
                 Yahh... Kamu nggak mau buka? 😢
               </p>
               <p className="font-body text-gray-600">
-                Aku sedih nih... Tapi gapapa, aku tunggu kamu bukanya ya~ 💔
+                Aku sedih nih... Tapi gapapa, aku tunggu kamu buka ya. TP KM PRH BANED KL NDMW BUKA AYANK HIKS~ 💔
               </p>
             </div>
           </motion.div>

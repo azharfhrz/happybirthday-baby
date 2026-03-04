@@ -143,7 +143,7 @@ const HeroSection = () => {
           className="flex justify-center items-center gap-4 mb-8"
         >
           <motion.img
-            src="/images/bubu.png"
+            src={`${import.meta.env.BASE_URL}images/bubu.png`}
             alt="Bubu"
             className="w-20 h-20 md:w-28 md:h-28"
             animate={{ y: [0, -10, 0], rotate: [-5, 5, -5] }}
@@ -156,7 +156,7 @@ const HeroSection = () => {
             <Heart className="w-10 h-10 text-pink-hot fill-pink-hot" />
           </motion.div>
           <motion.img
-            src="/images/mimi.png"
+            src={`${import.meta.env.BASE_URL}images/mimi.png`}
             alt="Mimi"
             className="w-20 h-20 md:w-28 md:h-28"
             animate={{ y: [0, -10, 0], rotate: [5, -5, 5] }}
@@ -184,7 +184,7 @@ const HeroSection = () => {
                   <div className="w-48 h-60 md:w-64 md:h-80 bg-gradient-to-br from-pink-pale to-pink-light rounded-2xl flex items-center justify-center overflow-hidden">
                     <div className="text-center p-4">
                       <motion.img
-                        src="/images/birthday-celebration.png"
+                        src={`${import.meta.env.BASE_URL}images/birthday-celebration.png`}
                         alt="Birthday Celebration"
                         className="w-32 h-32 mx-auto mb-2"
                         animate={{ y: [0, -5, 0] }}

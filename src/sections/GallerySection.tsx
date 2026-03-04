@@ -10,15 +10,15 @@ interface GalleryImage {
 
 const GallerySection = () => {
   const [images, setImages] = useState<GalleryImage[]>([
-    { id: 1, src: '/images/galeri1.jpg', caption: 'ini lucu bgt hehe jujur salting pas kamu bikin sg ini',  },
-    { id: 2, src: '/images/galeri2.jpg', caption: 'lucu banget ini duyungnya ak xixi' },
-    { id: 3, src: '/images/galeri3.jpg', caption: 'INI KYK MOMMY, YESSS MY MOMMYY ' },
-    { id: 4, src: '/images/galeri4.jpg', caption: 'inii lucuu bgt kamu gemes banget kayak bocil sayang, ak berasa jadi kakak kakak' },
-    { id: 5, src: '/images/galeri5.jpg', caption: 'ini juga lucu bangett heheeh akuu sukaaa, foto2 kamu yg ini aku jadiin walpaper aku sayang' },
-    { id: 6, src: '/images/galeri6.jpg', caption: 'INI WUCHU KYK BIKIN SALTING GT GEMES JSDBSJHDSH' },
-    { id: 7, src: '/images/galeri7.jpg', caption: 'INI LUCU BGT PLS VIBES NYA KAYAK HARRY POTTER AYANG' },
-    { id: 7, src: '/images/galeri8.jpg', caption: 'ini mah kayak lagi simulasi di pelaminan nanti sm ak xixixix ble apkh km redi' },
-    { id: 7, src: '/images/galeri9.jpg', caption: 'bocilnyaa aku hehehe, selalu jadi bocilnya aku ya sayang? kamu boleh jadi anak kecil terus sama aku sampe kapanpun itu sayang' },
+    { id: 1, src: `${import.meta.env.BASE_URL}images/galeri1.jpg`, caption: 'ini lucu bgt hehe jujur salting pas kamu bikin sg ini',  },
+    { id: 2, src: `${import.meta.env.BASE_URL}images/galeri2.jpg`, caption: 'lucu banget ini duyungnya ak xixi' },
+    { id: 3, src: `${import.meta.env.BASE_URL}images/galeri3.jpg`, caption: 'INI KYK MOMMY, YESSS MY MOMMYY ' },
+    { id: 4, src: `${import.meta.env.BASE_URL}images/galeri4.jpg`, caption: 'inii lucuu bgt kamu gemes banget kayak bocil sayang, ak berasa jadi kakak kakak' },
+    { id: 5, src: `${import.meta.env.BASE_URL}images/galeri5.jpg`, caption: 'ini juga lucu bangett heheeh akuu sukaaa, foto2 kamu yg ini aku jadiin walpaper aku sayang' },
+    { id: 6, src: `${import.meta.env.BASE_URL}images/galeri6.jpg`, caption: 'INI WUCHU KYK BIKIN SALTING GT GEMES JSDBSJHDSH' },
+    { id: 7, src: `${import.meta.env.BASE_URL}images/galeri7.jpg`, caption: 'INI LUCU BGT PLS VIBES NYA KAYAK HARRY POTTER AYANG' },
+    { id: 7, src: `${import.meta.env.BASE_URL}images/galeri8.jpg`, caption: 'ini mah kayak lagi simulasi di pelaminan nanti sm ak xixixix ble apkh km redi' },
+    { id: 7, src: `${import.meta.env.BASE_URL}images/galeri9.jpg`, caption: 'bocilnyaa aku hehehe, selalu jadi bocilnya aku ya sayang? kamu boleh jadi anak kecil terus sama aku sampe kapanpun itu sayang' },
   ]);
 
   const [showAddModal, setShowAddModal] = useState(false);
@@ -233,7 +233,7 @@ const handleAddImage = () => {
           className="flex justify-center mt-12"
         >
           <motion.img
-            src="/images/bubu-mimi-flowers.png"
+            src={`${import.meta.env.BASE_URL}images/bubu-mimi-flowers.png`}
             alt="Bubu & Mimi with Flowers"
             className="w-40 h-40"
             animate={{ y: [0, -10, 0] }}

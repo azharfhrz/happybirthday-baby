@@ -14,11 +14,11 @@ interface Song {
 
 const PlaylistSection = () => {
 const [songs, setSongs] = useState<Song[]>([
-  { id: 1, title: 'Thinking Out Loud', artist: 'Ijey Sheeran', duration: '4:41', audio: '/music/thinking.mp3' },
-  { id: 2, title: 'could not save you tonight', artist: 'Ijey kul', duration: '4:23', audio: '/music/couldnt.mp3' },
-  { id: 3, title: 'Get u', artist: 'Ijey Caesar', duration: '4:18', audio: '/music/get you.mp3' },
-  { id: 4, title: 'Ijey NGERAP LESGOO', artist: 'XXXIJEY', duration: '3:53', audio: '/music/shape.mp3' },
-  { id: 5, title: 'Champagne Supernova', artist: 'Ijey Oasis', duration: '3:53', audio: '/music/oasis.mp3' },
+  { id: 1, title: 'Thinking Out Loud', artist: 'Ijey Sheeran', duration: '4:41', audio: `${import.meta.env.BASE_URL}music/thinking.mp3` },
+  { id: 2, title: 'could not save you tonight', artist: 'Ijey kul', duration: '4:23', audio: `${import.meta.env.BASE_URL}music/couldnt.mp3` },
+  { id: 3, title: 'Get u', artist: 'Ijey Caesar', duration: '4:18', audio: `${import.meta.env.BASE_URL}music/get-you.mp3` },
+  { id: 4, title: 'Ijey NGERAP LESGOO', artist: 'XXXIJEY', duration: '3:53', audio: `${import.meta.env.BASE_URL}music/shape.mp3` },
+  { id: 5, title: 'Champagne Supernova', artist: 'Ijey Oasis', duration: '3:53', audio: `${import.meta.env.BASE_URL}music/oasis.mp3` },
 ]);
 
   const [currentSong, setCurrentSong] = useState<number | null>(null);
@@ -148,7 +148,7 @@ const handlePlay = (songId: number) => {
                 {/* Label */}
                 <div className="w-32 h-32 rounded-full bg-gradient-to-br from-pink-dark to-pink-hot flex items-center justify-center relative">
                   <motion.img
-                    src="/images/bubu-mimi-music.png"
+                    src={`${import.meta.env.BASE_URL}images/bubu-mimi-music.png`}
                     alt="Music"
                     className="w-24 h-24 rounded-full object-cover"
                     animate={{ scale: [1, 1.05, 1] }}
@@ -337,7 +337,7 @@ const handlePlay = (songId: number) => {
           className="flex justify-center mt-12"
         >
           <motion.img
-            src="/images/bubu-mimi-music.png"
+            src={`${import.meta.env.BASE_URL}images/bubu-mimi-music.png`}
             alt="Bubu & Mimi Music"
             className="w-40 h-40"
             animate={{ y: [0, -10, 0] }}

@@ -48,7 +48,7 @@ const CuteNavbar = ({ currentSection, onNavigate }: CuteNavbarProps) => {
               onClick={() => onNavigate('hero')}
             >
               <motion.img
-                src="/images/bubu.png"
+                src={`${import.meta.env.BASE_URL}images/bubu.png`}
                 alt="Bubu"
                 className="w-10 h-10"
                 animate={{ rotate: [0, 10, -10, 0] }}
@@ -60,7 +60,7 @@ const CuteNavbar = ({ currentSection, onNavigate }: CuteNavbarProps) => {
                 Zara's Day
               </span>
               <motion.img
-                src="/images/mimi.png"
+                src={`${import.meta.env.BASE_URL}images/mimi.png`}
                 alt="Mimi"
                 className="w-10 h-10"
                 animate={{ rotate: [0, -10, 10, 0] }}

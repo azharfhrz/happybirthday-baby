@@ -195,7 +195,7 @@ const MessageGiftSection = () => {
             className="relative"
           >
             <motion.img
-              src="/images/gift-box.png"
+              src={`${import.meta.env.BASE_URL}images/gift-box.png`}
               alt="Gift Box"
               className="w-48 h-48 md:w-64 md:h-64"
               animate={{ y: [0, -10, 0] }}
@@ -318,7 +318,7 @@ const MessageGiftSection = () => {
           className="flex justify-center mt-12"
         >
           <motion.img
-            src="/images/bubu-mimi-heart.png"
+            src={`${import.meta.env.BASE_URL}images/bubu-mimi-heart.png`}
             alt="Bubu & Mimi"
             className="w-40 h-40"
             animate={{ y: [0, -10, 0] }}
